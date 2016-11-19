@@ -1,0 +1,19 @@
+#TMUX command:
+    C-a % //to split two windows, left and right
+    C-a " //to split windows, up and down
+    C-a up/down/left/right  //use arrow keys to switch panes
+    C-d // close panes
+    C-a c //create new windows
+    C-a d //to detach the current session
+    tmux ls //show all available session 
+    tmux attach -t 0/NAME //to attach selected session
+    tmux new -s NAME //create a name for the new session
+
+    C-a z //make the current pane go full screen; press it again will be back
+    C-a C-<arrow key> //Resize pane
+    C-b , //rename the current window
+   
+
+#ZSH themes:
+https://www.quora.com/What-is-your-favorite-oh-my-zsh-theme
+
