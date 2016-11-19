@@ -6,7 +6,7 @@ export USE_EDITOR=$EDITOR
 export VISUAL=$EDITOR
 
 # ooh, what is this? Aliases?
-source .oh-my-zsh/lib/alias.zsh
+#source .oh-my-zsh/lib/alias.zsh
 
 # aliases for Tmux
 alias tmux='tmux -2'
