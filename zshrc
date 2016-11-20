@@ -1,4 +1,10 @@
-ZSH_THEME="3den"
+# .zshrc
+autoload -U promptinit; promptinit
+prompt pure
+# optionally define some options
+PURE_CMD_MAX_EXEC_TIME=10
+
+ZSH_THEME="pure"
 # make sure that if a program wants you to edit
 # text, that Vim is going to be there for you
 export EDITOR="vim"
